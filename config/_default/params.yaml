@@ -3,53 +3,64 @@
 # Documentation: https://wowchemy.com/docs/
 # This file is formatted using YAML syntax - learn more at https://learnxinyminutes.com/docs/yaml/
 
-# Appearance
+# Choose a theme.
+#   Latest themes (may require updating): https://sourcethemes.com/academic/themes/
+#   Browse built-in themes in `themes/academic/data/themes/`
+#   Browse user installed themes in `data/themes/`
+theme: "guru"
 
-theme: minimal
-day_night: true
-font: ''
-font_size: L
+# Enable users to switch between day and night mode?
+day_night: false
+
+# Override the theme's font set (optional).
+#   Latest font sets (may require updating): https://sourcethemes.com/academic/themes/
+#   Browse built-in font sets in `themes/academic/data/fonts/`
+#   Browse user installed font sets in `data/fonts/`
+font: "my_fonts"
+
+# Choose a font size.
+# Sizes: XS (extra small), S (small), M (medium), L (large - DEFAULT), XL (extra large)
+font_size: "L"
 
 # SEO
 
 site_type: Person
 local_business_type: ''
-org_name: ''
+org_name: 'Capital One'
 description: ''
-twitter: ''
+twitter: 'https://twitter.com/GuruIlan'
 
 # Contact (edit or remove options as required)
 
-email: test@example.org
-phone: 888 888 88 88
+email: ilangurudev@gmail.com
+# phone: 888 888 8888
 address:
-  street: 450 Serra Mall
-  city: Stanford
-  region: CA
-  postcode: '94305'
+  city: Washington, D.C
+  region: VA
+  postcode: '22046'
   country: United States
   country_code: US
-coordinates:
-  latitude: '37.4275'
-  longitude: '-122.1697'
-directions: Enter Building 1 and take the stairs to Office 200 on Floor 2
-office_hours:
-  - 'Monday 10:00 to 13:00'
-  - 'Wednesday 09:00 to 10:00'
-appointment_url: 'https://calendly.com'
+# coordinates:
+#   latitude: '77.0369'
+#   longitude: '38.9072'
+# directions: Enter Building 1 and take the stairs to Office 200 on Floor 2
+# office_hours:
+#   - 'Monday 10:00 to 13:00'
+#   - 'Wednesday 09:00 to 10:00'
+# appointment_url: 'https://calendly.com'
 contact_links:
   - icon: twitter
     icon_pack: fab
     name: DM Me
-    link: 'https://twitter.com/Twitter'
-  - icon: skype
-    icon_pack: fab
-    name: Skype Me
-    link: 'skype:echo123?call'
-  - icon: keybase
-    icon_pack: fab
-    name: Chat on Keybase
-    link: 'https://keybase.io/'
+    link: 'https://twitter.com/GuruIlan'
+  # - icon: skype
+  #   icon_pack: fab
+  #   name: Skype Me
+  #   link: 'skype:echo123?call'
+  # - icon: keybase
+  #   icon_pack: fab
+  #   name: Chat on Keybase
+  #   link: 'https://keybase.io/'
   - icon: comments
     icon_pack: fas
     name: Discuss on Forum
@@ -79,12 +90,12 @@ highlight_languages:
   - r
   - python
   - latex
-math: false
-diagram: false
+math: true
+diagram: true
 privacy_pack: false
 edit_page:
-  repo_url: ''
-  content_dir: ''
+  repo_url: 'www.github.com/ilangurudev/ilangurudev'
+  content_dir: 'content'
   repo_branch: main
   editable:
     page: false
@@ -92,7 +103,7 @@ edit_page:
     book: false
 show_related:
   book: true
-  page: false
+  page: true
   post: true
   project: true
   publication: true
@@ -145,7 +156,7 @@ search:
 map:
   provider: mapnik
   api_key: ''
-  zoom: 15
+  zoom: 4
 marketing:
   google_analytics: ''
   google_tag_manager: ''
@@ -157,4 +168,4 @@ cms:
   local_backend: false
 icon:
   pack:
-    ai: false
+    ai: true
