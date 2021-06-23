@@ -353,6 +353,13 @@
   }
 }
 
+@media screen and (min-width: 1200px){
+  .container-xl, .container-lg, .container-md, .container-sm, .container {
+    max-width: 1200px;
+  }
+}
+
+
 /*************************************************
  *  About widget - home page
  **************************************************/
@@ -424,6 +431,7 @@
 
  .home-section, .wg-portfolio, .btn-toolbar {
   padding: 0.6rem;
+  justify-content: center;
 }
 
 .proj-header {

@@ -19,7 +19,7 @@ options(
   blogdown.method = 'markdown',
   blogdown.author = "Gurudev Ilangovan",
   blogdown.ext = ".md",    
-  blogdown.subdir = "post",
+  blogdown.subdir = "project",
   blogdown.new_bundle = TRUE
 )
 

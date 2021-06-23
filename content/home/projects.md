@@ -9,7 +9,7 @@ headless: true
 # Order that this section appears on the page.
 weight: 65
 
-title: Projects
+title: posts
 subtitle: ''
 
 content:
@@ -34,7 +34,7 @@ content:
 
 design:
   # Choose how many columns the section has. Valid values: '1' or '2'.
-  columns: '2'
+  columns: '1'
 
   # Toggle between the various page layout types.
   #   1 = List
@@ -45,4 +45,12 @@ design:
 
   # For Showcase view, flip alternate rows?
   flip_alt_rows: false
+  
+  background:
+    gradient_start: "#F7F7F7"
+    gradient_end: "#AED9E0"
+    
+  spacing:
+    # Customize the section spacing. Order is top, right, bottom, left.
+    padding: ["1rem", "0", "4rem", "0"]
 ---
