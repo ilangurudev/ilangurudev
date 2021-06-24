@@ -16,11 +16,11 @@ interests:
 organizations:
 - name: Capital One
   url: https://www.capitalone.com/
-role: Senior Data Analyst
+role: Senior Data Analyst, Capital One
 social:
 - icon: envelope
   icon_pack: fas
-  link: /#contact
+  link: mailto:ilangurudev@gmail.com
 - display:
     header: true
   icon: twitter
